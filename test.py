@@ -6,7 +6,7 @@ import warnings
 sys.dont_write_bytecode = True
 warnings.filterwarnings('ignore')
 
-from psqldb import Db
+from ppsqldb import Db
 
 def main() -> None:
     test1()
